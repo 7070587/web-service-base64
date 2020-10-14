@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES6",
+    "noImplicitAny": false,
+    "strictPropertyInitialization": false,
+    "sourceMap": false,
+    "outDir": "dist",
+    "declaration": true,
+    "experimentalDecorators": true
+  },
+  "include": ["*"],
+  "exclude": [".git", ".cache", "node_modules", "logs"]
+}
