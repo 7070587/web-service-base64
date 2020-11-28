@@ -1,6 +1,6 @@
-# web-service-base64
+# vue-base64-way
 
-The web-service-base64 provide a instance or class with common used base64-related tool.
+The vue-base64-way provide a instance or class with common used base64-related tool.
 This tool use frontend.
 
 ## Installation
@@ -8,7 +8,7 @@ This tool use frontend.
 1. Via npm
 
     ```bash
-    npm install web-service-base64
+    npm install vue-base64-way
     ```
 
 2. In package.json:
@@ -17,7 +17,7 @@ This tool use frontend.
     {
         ...
         "dependencies": {
-            "web-service-base64": "1.00.04",
+            "vue-base64-way": "1.00.00",
             ...
         }
         ...
@@ -30,10 +30,10 @@ This tool use frontend.
     npm install
     ```
 
-3. Update web-service-base64
+3. Update vue-base64-way
 
     ```bash
-    npm update web-service-base64
+    npm update vue-base64-way
     ```
 
 ## Usage
@@ -41,19 +41,19 @@ This tool use frontend.
 #### General Use
 
 ```typescript
-import { ServiceBase64 } from 'web-service-base64';
+import { ServiceBase64 } from 'vue-base64-way';
 ```
 
 #### Variable Use
 
 ```typescript
-import { personEmpty, imageEmpty } from 'web-service-base64';
+import { personEmpty, imageEmpty } from 'vue-base64-way';
 ```
 
 #### Class
 
 ```typescript
-import { ServiceBase64Class } from 'web-service-base64';
+import { ServiceBase64Class } from 'vue-base64-way';
 
 console.log(new ServiceBase64Class().isUrl('https://www.google.com.tw/?hl=zh-TW'));
 class ServiceBase64Extend extends ServiceBase64Class {
@@ -109,10 +109,11 @@ get image base64 src
 
 default person image base64
 
-
-
-#### personEmpty
-
-default person image base64
-
 #### imageEmpty
+
+default empty image base64
+
+## Other Notes
+
+1. [npm url](https://www.npmjs.com/package/vue-base64-way)
+2. [git](https://github.com/7070587/vue-base64-way)
